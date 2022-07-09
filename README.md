@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dnanstdevyc;
+})();
 })();
 </script>
 ```
@@ -221,6 +223,7 @@ var v = dnanstdevyc.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanstdevyc@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -234,6 +237,7 @@ console.log( x );
 var v = dnanstdevyc( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -345,7 +349,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -353,15 +357,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats-base-dnanstdev/tree/umd
+[@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats-base-dnanstdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanvarianceyc]: https://github.com/stdlib-js/stats-base-dnanvarianceyc/tree/umd
+[@stdlib/stats/base/dnanvarianceyc]: https://github.com/stdlib-js/stats-base-dnanvarianceyc/tree/umd/tree/umd
 
-[@stdlib/stats/base/dstdevyc]: https://github.com/stdlib-js/stats-base-dstdevyc/tree/umd
+[@stdlib/stats/base/dstdevyc]: https://github.com/stdlib-js/stats-base-dstdevyc/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanstdevyc]: https://github.com/stdlib-js/stats-base-nanstdevyc/tree/umd
+[@stdlib/stats/base/nanstdevyc]: https://github.com/stdlib-js/stats-base-nanstdevyc/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats-base-snanstdevyc/tree/umd
+[@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats-base-snanstdevyc/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
